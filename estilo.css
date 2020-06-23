@@ -1,0 +1,471 @@
+body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, Arial;}
+    
+    /*header*/
+
+    .menu{
+        position: fixed;
+        width: 98.98%;
+    }
+    .menu ul {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        text-align: center;
+        background-color: rgb(107, 107, 107);
+        border-color: black;
+        border: 2px solid;
+    }
+    .menu ul li { display: inline; }
+    .menu ul li a {
+        color: black;
+        padding: 13px 23px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .menu ul li a:hover{color: #bdbdbd;}
+
+    .espaço{ height: 8.3%;}
+    /*header*/
+    
+    /*TextoInício*/
+
+    h1{font-size: 40px;color: black;}
+
+    #Inicio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    #imagemPerfil{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+
+    #objetivo{  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+
+    p{padding-left: 25%; padding-right: 25%; text-align: justify; font-size: 18px;line-height: 23px;}
+
+    /*TextoInício*/
+
+    /*TextoCursos*/
+
+    h2{font-size: 40px;color:#313131; text-align: center;}
+    #textoCursos li{
+        font-size: 20px;
+        display: block;
+        padding-left: 20%;
+        line-height: 26px;}
+
+    /*TextoCursos*/
+
+    /*textoExperiencia*/
+
+    #textoExperiencia li{
+        font-size: 20px;
+        display: block;
+        text-align: justify;
+        padding-left: 20%;
+        padding-right: 20%;
+        line-height: 26px;}
+
+    /*textoExperiencia*/
+
+    /*TextoFormaçao*/
+
+    #TextoFormaçao li{
+        font-size: 20px;
+        display: block;
+        padding-left: 20%;
+        padding-right: 20%;
+        line-height: 26px;
+    }
+    /*TextoFormaçao*/
+
+    /*textoinformaçoesAdicionais*/
+
+    #competencias li{
+        font-size: 20px;
+        display: block;
+        padding-left: 20%;
+        line-height: 26px;}
+
+    /*textoinformaçoesAdicionais*/
+
+    /* Page style*/   
+  /* Slideshow container */
+#titulogaleria{
+    text-align: center;
+}
+
+  #galeria{
+    height: 359px;
+  }
+
+  .galeria1 {
+    width: 18%;
+    height: 335px;
+    position: relative;
+    margin: 0 0 0 3%;
+    background: #333;
+    padding: 2px;
+    border: medium solid;
+  }
+
+  .galeria2 {
+    width: 18%;
+    height: 335px;
+    position: relative;
+    margin: -343px 0 0 28%;
+    background: #333;
+    padding: 2px;
+    border: medium solid;
+  }
+
+  .galeria3 {
+    width: 18%;
+    height: 335px;
+    position: relative;
+    margin: -343px 0 0 53%;
+    background: #333;
+    padding: 2px;
+    border: medium solid;
+  }
+  .galeria4 {
+    width: 18%;
+    height: 335px;
+    position: relative;
+    margin: -343px 0 0 78%;
+    background: #333;
+    padding: 2px;
+    border: medium solid;
+  }
+    @media (min-width: 480px) {
+        .gallery-container {
+          width: 60%;
+          margin: auto;
+        }
+    }
+  /* Hide the images by default */
+
+  .mySlides {
+    display: none;
+  }
+  /* Next & previous buttons */
+
+  .prev1, .next1 {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.1);
+  }
+  /* Position the "next button" to the right */
+
+  .next1 {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev1 {
+    left: 10px;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .imgslide {
+    width: 100%;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 5px 12px;
+    position: absolute;
+    top: 0;
+  }
+  @media (max-width: 768px) {
+    .numbertext {
+      top: 15px;
+    }
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+    /*Textocontato*/
+
+    #textoContato{
+        height: 359px;
+
+    }
+    #textoContato li{
+        padding:5px;
+        margin:0px;
+        font-size: 20px;
+        display: block;
+        padding-left: 20%;
+        line-height: 26px;
+    }
+    #linksImg ul{
+        padding-left: 20%;
+    }
+    #linksImg ul li { 
+        display: inline;
+        display: inline-block;
+        padding-left: 30px;
+        
+    }
+
+    /*linkedin*/
+    .contatolinkedin {
+        position: relative;
+    }
+    .contatolinkedin .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .contatolinkedin:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*linkedin*/
+
+    /*instagram*/
+    .contatoinstagram {
+        position: relative;
+    }
+    .contatoinstagram .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .contatoinstagram:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*instagram*/
+
+    /*whats*/
+    .contatowhatsapp {
+        position: relative;
+    }
+    .contatowhatsapp .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .contatowhatsapp:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*whats*/
+
+    /*facebook*/
+    .contatofacebook {
+        position: relative;
+    }
+    .contatofacebook .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .contatofacebook:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*facebook*/
+    
+    /*Textocontato*/
+
+     /*footer*/
+     
+    .rodape ul {
+        padding:5px;
+        margin:0px;
+        list-style:none;
+        text-align: center;
+        background-color: rgb(107, 107, 107);
+        border-color: black;
+        border: 2px solid;
+    }
+    .rodape ul li { 
+        display: inline;
+        display: inline-block;
+        color: black;
+        text-transform: uppercase;
+        padding-left: 30px;
+    }
+    .rodape ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .rodape ul li:hover{color: #bdbdbd;}
+    .rodape ul li a:hover{color: #bdbdbd;}
+    
+    /*linkedin*/
+    .imglinkedin {
+        position: relative;
+    }
+    .imglinkedin .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imglinkedin:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*linkedin*/
+
+    /*instagram*/
+    .imginstagram {
+        position: relative;
+    }
+    .imginstagram .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imginstagram:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*instagram*/
+
+    /*whats*/
+    .imgwhatsapp {
+        position: relative;
+    }
+    .imgwhatsapp .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imgwhatsapp:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*whats*/
+
+    /*facebook*/
+    .imgfacebook {
+        position: relative;
+    }
+    .imgfacebook .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imgfacebook:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*facebook*/
+
+    /*email*/
+    .imgemail {
+        position: relative;
+    }
+    .imgemail .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imgemail:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*email*/
+
+    /*telefone*/
+    .imgtelefone {
+        position: relative;
+    }
+    .imgtelefone .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imgtelefone:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*email*/
+
+    /*endereço*/
+    .imgendereço {
+        position: relative;
+    }
+    .imgendereço .seg {
+        visibility: hidden;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .imgendereço:hover .seg {
+        visibility: visible;
+        opacity: 1;
+    }
+    /*email*/
+
+    /*footer*/
