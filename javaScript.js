@@ -4,7 +4,7 @@ showSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-  ga('send', 'event', 'galeria', 'next_prev', 'Titulo da página');
+  ga('send', 'event', 'galeria', 'hashihouse', 'next_prev', 'Titulo da página');
 }
 
 // Thumbnail image controls
