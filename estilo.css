@@ -1,4 +1,4 @@
-body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, Arial;}
+body{background-color: #f7f7f7b7;font-family: 'Courier New', Courier, monospace, Arial;}
     
     /*header*/
 
@@ -12,22 +12,22 @@ body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, A
         margin:0px;
         list-style:none;
         text-align: center;
-        background-color: rgb(107, 107, 107);
+        background-color: rgb(156, 156, 156);
         border-color: black;
         border: 2px solid;
     }
     .menu ul li { display: inline; }
     .menu ul li a {
         color: black;
-        padding: 13px 23px;
+        padding: 11px 23px;
         display: inline-block;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 18px;
     }
-    .menu ul li a:hover{color: #bdbdbd;}
+    .menu ul li a:hover{color: #ffffff;}
 
-    .espaço{ height: 8.3%;}
+    .espaço{ height: 8.0%;}
     /*header*/
     
     /*TextoInício*/
@@ -126,7 +126,7 @@ body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, A
 
 }
 .textport{
-    width: 50%;
+    width: 53%;
     padding-left: 20px;
 }
       .textport h2, .textport p,.textport a{
@@ -152,7 +152,7 @@ body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, A
   }
   
   .hashihouse .prev:hover, .hashihouse .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.3);
   }
   .hashihouse .prev{
     right: 1%;
@@ -390,11 +390,11 @@ body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, A
      /*footer*/
      
     .rodape ul {
-        padding:5px;
+        padding:6px;
         margin:0px;
         list-style:none;
         text-align: center;
-        background-color: rgb(107, 107, 107);
+        background-color: rgb(156, 156, 156);
         border-color: black;
         border: 2px solid;
     }
@@ -409,8 +409,8 @@ body{background-color: #bdbdbd;font-family: 'Courier New', Courier, monospace, A
         text-decoration: none;
         color: black;
     }
-    .rodape ul li:hover{color: #bdbdbd;}
-    .rodape ul li a:hover{color: #bdbdbd;}
+    .rodape ul li:hover{color: #ffffff;}
+    .rodape ul li a:hover{color: #ffffff;}
     
     /*linkedin*/
     .imglinkedin {
